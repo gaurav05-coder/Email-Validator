@@ -8,6 +8,13 @@
 .logo{
     font-size: larger;
 }
+input[type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
 .container h1{
         padding: 12px 0;
         margin-bottom: 5px;
@@ -19,6 +26,9 @@
         border: 1px solid gray;
         border-radius: 6px;
         cursor: pointer;
+    }
+    #resultCont div::first-letter{
+        text-transform: uppercase;
     }
 nav{
     display: flex;
